@@ -1,5 +1,7 @@
 package org.example;
-
+/*
+Skriv ett program som skriver ut talen 1 till 16 med hjälp av en loop.
+*/
 public class Uppg1 {
     static void main() {
         
