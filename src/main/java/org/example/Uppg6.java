@@ -9,7 +9,7 @@ Programmet skriver ut:
 ....#
 
 Varje gång y-loopen körs så körs *hela* x-loopen
-och därför skriver varje y-loop ut 5 tecken.
+och därför skriver varje y-loop ut 5 tecken och gör därefter en radbrytning.
 
 När x-loopens inleds första gången är if-villkoret uppfyllt.
 Då skrivs "#" ut. I resterande fyra fall uppfylls else if-villkoret
