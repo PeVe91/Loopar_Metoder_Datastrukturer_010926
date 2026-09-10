@@ -15,7 +15,6 @@ public class Uppg11 {
         return "Titel: " + b.title() + "\n" +
                 "Author: " + b.author() + "\n" +
                 "Year: " + b.year();
-
     }
 
 }
