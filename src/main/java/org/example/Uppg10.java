@@ -6,7 +6,7 @@ package org.example;
 
 public class Uppg10 {
     static void main() {
-        int[] numbersArray = new int[] {1, 2, 3};
+        int[] numbersArray = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         System.out.println(sum(numbersArray[0], numbersArray[1]));
         System.out.println(sum(numbersArray[0], numbersArray[1], numbersArray[2]));
