@@ -18,6 +18,5 @@ public class Uppg8 {
 
 
     public record Person(String name, int age, String city) {
-
     }
 }

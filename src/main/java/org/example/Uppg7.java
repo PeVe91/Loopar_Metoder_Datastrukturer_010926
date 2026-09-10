@@ -6,21 +6,24 @@ public class Uppg7 {
     static void main() {
 
         int[] numbers = {5, 12, 8, 21, 3};
-        smallestGreatest(numbers);
+        smallestAndGreatest(numbers);
         IO.println("Sum: " + add(numbers));
 
     }
 
-    private static void smallestGreatest(int[] numbers) {
+    private static void smallestAndGreatest(int[] numbers) {
+        //int greatest = Integer.MIN_VALUE;
+        //int smallest = Integer.MAX_VALUE;
         int greatest = numbers[0];
         int smallest = numbers[0];
 
-        for (int i = 0; i < numbers.length; i++){
-            if (numbers[i] > greatest){
-                greatest = numbers[i];
+        for (int number : numbers) {
+            if (number > greatest) {
+                greatest = number;
+                //greatest= Math.max(max, number);
             }
-            if (numbers[i] < smallest){
-                smallest = numbers[i];
+            if (number < smallest) {
+                smallest = number;
             }
         }
         IO.println("Greatest: " + greatest);
@@ -28,8 +31,8 @@ public class Uppg7 {
     }
     static int add(int[] numbers) {
         int sum = 0;
-        for (int i = 0; i < numbers.length; i++){
-            sum += numbers[i];
+        for (int number : numbers) {
+            sum += number;
         }
         return sum;
     }
